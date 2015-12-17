@@ -1,0 +1,371 @@
+/* custom styles */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: red;	
+	
+}
+
+.wrapper{
+   position: relative; 
+   width: 100%;
+}
+
+
+/* heading styles */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	font-family: Courier New, Courier, monospace;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 2.2em;
+}
+
+h2 {
+	font-size: 1.8em;
+	line-height: 2em;
+}
+
+h3 {
+	font-size: 1.6em;
+	line-height: 1.8em;
+}
+
+h4 {
+	font-size: 1.4em;
+	line-height: 1.6em;
+}
+
+h5 {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+h6 {
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+
+/*Paragraph Styles*/
+p{
+	font-family: Courier New, Courier, monospace;
+	text-indent: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+/* navigation styles */
+.active {
+	background-color: darkgray;
+}
+
+
+.masthead{
+    background-color: black;
+	background-image: url("Nintendo_Logo2.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position: 10px;
+	font-family: Courier New, Courier, monospace;
+	font-size: 1.5em;
+	
+	
+	
+}
+
+
+/* navigation styles for larger screens */
+@media screen and (min-width:640px) {
+	
+	
+	.nav-bar {
+		list-style-type: none;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		
+		
+	}
+	
+	.nav li {	
+		overflow: auto;
+		
+	}
+	
+	.nav li:hover {
+		background-color: grey;
+	}
+	
+	.nav a {
+		display: block;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		padding-top: 0.8em;
+		width: 8em;
+		height: 2.2em;
+		
+	}
+	
+	.nav a:hover, nav a:visited, nav a:focus {
+		color: white;
+	}
+
+	.toggle {
+		display: none;
+	}
+	
+	/*Article headers*/
+	
+	.featureHeader{
+		margin-left: 62px;	
+	}
+	
+	.featureHeader2{
+		margin-left: 30px;
+	}
+	
+	
+	
+	/*Articles*/
+	
+	.greeting{
+		border: solid green 3px;
+		margin-right: 50%;
+		margin-left: 10px;
+		margin-top: 10px;
+		padding: 10px;
+		background-color: black;
+		color: white;
+		text-align: center;
+		
+	}
+	
+	.secondArticle{
+		border: solid green 3px;
+		margin-left: 50%;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		
+		background-color: black;
+	    color: white;
+	}
+	
+	
+	
+	.featureParagraph1{
+	margin-top: 10px;
+	margin-right: 10px;
+    padding: 10px;
+    height: 360px;
+    background-color: black;
+	color: ghostwhite;
+	border: solid green;
+	overflow: auto;
+   }
+   
+   .featureParagraph2{
+	   
+	   border: solid green;
+	   background-color: black;
+	   color: ghostwhite;
+	   text-indent: 2em;
+	   overflow: auto;
+	   padding: 10px;
+	   margin: 10px;
+   }
+   
+   .aboutArticle{
+	   background-color: black;
+	   color: ghostwhite;
+	   padding: 10px;
+	   margin-left: 15%;
+	   margin-right: 15%;
+	   margin-top: 10px;
+	   margin-bottom: 10px;
+	   border: solid green;
+	   font-family: Courier New, Courier, monospace;
+   }
+	
+	/*image*/
+	
+	.image{
+		
+		width: 80%;
+		margin-right:10%;
+		margin-left: 10%;
+	}
+	
+	.featureImage{
+	margin-right: 10px;	
+    margin-left:  10px;
+    float: left;
+    padding: 10px;
+    background-color: black;
+	border: solid green;
+		
+	}
+	
+	.featureImage2{
+    margin-left:  10px;
+	margin-right: 10px;
+    float: right;
+    padding: 10px;
+    background-color: black;
+	border: solid green;
+	overflow: auto;
+	height: 379px;
+		
+	}
+		
+    
+	
+	/*Footer*/
+	
+	.footer{
+		margin-top: 10px;
+		background-color: black;
+		color: white;
+		font-family: Courier New, Courier, monospace;
+		
+	}
+		
+    .footerHeader{
+	    margin-left: 10px;	
+	}
+		
+		
+		
+	
+	
+	/*test*/
+	
+	.container1{
+		position: relative;
+		
+	}
+	
+	 
+	
+     .box {
+		background-color: black;
+		color: ghostwhite;
+		float: right;
+		padding: 10px;
+		font-family: Courier New, Courier, monospace;
+		font-size: 0.8em;
+		
+		
+		
+		
+		 
+		
+	}
+	
+	.label{
+		
+		display: block;
+		overflow: auto;
+		padding: 10px;
+		margin-left: 15%;
+		margin-right: 15%;
+		
+		
+	}
+	
+	
+	
+	.row{
+		
+		padding: 10px;
+		margin-left: 20%;
+		margin-right: 20%;
+		overflow: auto;
+	}
+	
+	.legend{
+		text-align: center;
+	}
+	
+	.formTitle{
+		
+		text-align: center;
+	}
+	
+	.formText{
+		
+		float: left;
+		padding: 10px;
+	}
+	
+	.secondHead{
+		text-align: center;
+		font-size: 1.1em;
+	    line-height: 1.3em;
+		font-weight: bold;
+	}
+	
+	
+	.submit{
+		
+		background-color: ghostwhite;
+		display: block;
+		overflow: auto;
+		padding: 10px;
+		margin-left: 45%;
+		
+		
+		
+		
+	}
+	
+	.submitLabel{
+		
+		display: block;
+		overflow: auto;
+		padding: 10px;
+		
+	}
+	
+	.buy{
+		
+		padding: 10px;
+		display: inline-block;
+		margin-left: 10%;
+		margin-right: 10%;
+		
+	}
+	
+	.right{
+		margin-left: 15px;
+	}
+	
+	.left{
+		margin-right: 15px; 
+	}
+	
+	.contactImage{
+		margin-left: 17%;
+		margin-right: 17%;
+	}
+	
+	.textBox{
+		background-color: black;
+		color: ghostwhite;
+		
+	}
+	
+	.paragraph{
+		padding-bottom: 10px;
+	}
+	
+
+
+
+

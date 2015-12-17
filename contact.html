@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NINTENDO/Contact</title>
+    <link rel="stylesheet" href="Content/reset.css">
+    <link rel="stylesheet" href="Content/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="Content/main.css">
+  </head>
+  <body>
+	  
+    <!-- HEADER SECTION -->
+	  <header class="masthead">
+		  <nav class="nav">
+       <ul class="nav-bar">
+				  <li><a href="index.html"><i class="fa fa-gamepad"></i>Home</a></li>
+          <li><a href="features.html"><i class="fa fa-film"></i>Features</a></li>
+          <li><a href="buynow.html"><i class="fa fa-shopping-basket"></i>Buy Now</a></li>
+          <li><a href="about.html"><i class="fa fa-circle-o-notch"></i>About Us</a></li>
+          <li class="active"><a id="contact" href="contact.html"><i class="fa fa-phone-square"></i>Contact Us</a></li>
+			  </ul>
+		  </nav>
+	  </header>
+    
+    <!-- Main Section -->
+    
+    <div class="wrapper">
+      <main class="mainContent">
+        <article class="aboutArticle">
+          <h1 class="featureHeader">Contact Us</h1>
+          <img class="contactImage" src="Assets/images/headquarters.jpg" >
+        </article>
+         <!-- THIS IS THE FORM SECTION/-->
+                       <section class="aboutArticle">
+                         <div class="formTitle">
+                               <h6 class="legend">Please Enter Your Information & Message</h6>
+                               </div>
+                           <fieldset class="orderform">
+                             <div class="row formgroup">
+                               
+                               
+                               
+                                   <form action="processform.php" method="post" id="first form" class="forms">
+                                     
+                                       <label class="label"  for="FirstName"><label class="formText"> First Name*</label>
+                                       <input class="box" type="text" id="firstname" name="firstname"  placeholder="Enter Your Fist Name" required></label><br>
+                                   
+                              
+                               
+                              
+                           
+                                       <label class="label" for="lastname"><label class="formText">Last Name*</label>
+                                       <input class="box" type="text" id="lastname" name="lastname"  placeholder="Enter Your Last Name" required></label><br>
+                               
+                           
+                                       <label class="label" for="email"><label class="formText">Email*</label>
+                                       <input class="box" type="text" id="email" name="email"  placeholder="Enter Your Email" required></label><br>
+                                       
+                                       <div class=" row formgroup">
+                                   <label for="problems">Drop A Line</label> <br>
+                                   <textarea class="textBox" rows="10" cols="50"></textarea>
+                                       </div>
+                               
+                           
+                                       
+                                       <div class="submitLabel">
+                                        <label class="labe">
+                                        <input class="submit" type="submit" id="submitButton" name="submit" class="button"></label>
+                                        </div>
+
+                               
+                                      
+                                       
+
+                               </div>
+                               
+                               
+                            
+                            </form>
+
+                         </fieldset>
+                           
+                       </section>
+      </main>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <h4 class="footerHeader">&copy; Copyright 1985</h4>
+    </footer>
+  </body>
+</html>

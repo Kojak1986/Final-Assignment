@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NINTENDO/Features</title>
+    <link rel="stylesheet" href="Content/reset.css">
+    <link rel="stylesheet" href="Content/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="Content/main.css">
+  </head>
+  <body class="featureBody">
+	  
+    <!-- HEADER SECTION -->
+	  <header class="masthead">
+		  <nav class="nav">
+       <ul class="nav-bar">
+				  <li><a href="index.html"><i class="fa fa-gamepad"></i>Home</a></li>
+          <li class="active"><a id="products" href="features.html"><i class="fa fa-film"></i>Features</a></li>
+          <li><a href="buynow.html"><i class="fa fa-shopping-basket"></i>Buy Now</a></li>
+          <li><a href="about.html"><i class="fa fa-circle-o-notch"></i>About Us</a></li>
+          <li><a href="contact.html"><i class="fa fa-phone-square"></i>Contact Us</a></li>
+			  </ul>
+		  </nav>
+	  </header>
+    
+    <!-- Main Section -->
+    
+    <div class="wrapper">
+      <main class="mainContent">
+
+          
+          
+          <!-- Background Image -->
+        
+        <div class="container1">
+          <img class="featureImage"  src="Assets/images/mario~RESIZE.jpg">
+         
+          
+          <article class="featureParagraph1">
+            
+            <h1 class="featureHeader">Features</h1>
+          <p>For its central processing unit (CPU), the NES uses an 8-bit microprocessor produced by Ricoh, based on a MOS Technology 6502 core. It incorporates custom sound hardware and a restricted DMA controller on-die.[jargon] To avoid patent payments, the Ricoh CPU disabled the 6502's BCD (binary coded decimal) mode by removing several of the transistors necessary for enabling it. NTSC (North America, Japan, and Korea) versions of the console use the Ricoh 2A03 (or RP2A03), which runs at 1.79 MHz.[2] PAL (Europe, Australasia, and South Asia) versions of the console use the Ricoh 2A07 (or RP2A07), which is identical to the 2A03 except that it runs at a slower 1.66 MHz clock rate and has its sound hardware adjusted accordingly.</p>
+          <p>The NES contains 2 KiB of onboard work RAM. A game cartridge may contain expanded RAM to increase this amount. It also has 2 KiB of video RAM for the use of the picture processing unit (PPU), 256 bytes of OAM (object attribute memory) to hold a display list of sprites, and 28 bytes of palette RAM. The system supports up to 32 KiB of program ROM at a time, but this can be expanded by orders of magnitude by the process of bank switching. </p>
+        </article>
+        
+        </div>
+        <div class="container2">
+          <img class="featureImage2" src="Assets/images/baseball~RESIZE.jpg">
+        <article class="featureParagraph2">
+          <h2 class="featureHeader2">Video</h2>
+          <p>The image output by the PPU is made up of two layers, the background layer and the sprite layer. These in turn are made up of groups of 8 by 8 pixel “tiles”. These tiles use two bits per pixel (BPP), allowing them to utilize 3 colors of the main palette, with the fourth color being transparent. The background layer is represented by a table with indices for each tile, along with a palette selection for each 2 by 2 set of tiles (although "extended attribute mode" of the cartridge-based MMC5 memory mapper relaxed this limit to one per tile). The sprite layer can hold up to 64 sprites at a time and is made up of entries to the OAM. Each entry to consists of four bytes (y coordinate-1, tile index, vertical flip, horizontal flip, background priority, and color palette selection). The advantage of sprites over the background is that they can be positioned anywhere on the screen, allowing for moving objects, although they take up extra memory. VRAM is used for tile maps and attributes, while 8 KiB of tile patterns are stored on the cartridge (can be increased with bank switching). The NES color palette is based on NTSC values rather than RGB values. While it has a logical palette of 64 colors (6-bit depth), there are only 54 unique entries due to how it was constructed (12 hues each with 4 intensity levels plus 2 sets of 4 greys, with 2 intensities of each set being identical). Normally, 25 colors may be used simultaneously: one background color, four sets of three tile colors and four sets of three sprite colors. To achieve more colors, programmers could switch the color values mid-frame, as well as manipulate “color emphasis” bits to modify individual palette entries at specific screen regions, using carefully timed code.</p>
+        </article>
+        </div>
+      </main>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <h4 class="footerHeader">&copy; Copyright 1985</h4>
+    </footer>
+  </body>
+</html>
